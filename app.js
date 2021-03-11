@@ -16,21 +16,21 @@ function endGame() {
 function rock() {
     playerChoice = "rock";
     gameChoice = gameArr[parseInt(Math.random()*3)];
-    if (gameChoice == "rock") {gameResult = "Draw"} else if (gameChoice == "paper") {gameResult = "You Lose"} else if (gameChoice == "scissors") {gameResult = "You Win"}
+    if (gameChoice == "rock") {gameResult = "DRAW"} else if (gameChoice == "paper") {gameResult = "YOU LOSE"} else if (gameChoice == "scissors") {gameResult = "YOU WIN"}
     endGame()
   }
 
   function paper() {
     playerChoice = "paper";
     gameChoice = gameArr[parseInt(Math.random()*3)];
-    if (gameChoice == "paper") {gameResult = "Draw"} else if (gameChoice == "scissors") {gameResult = "You Lose"} else if (gameChoice == "rock") {gameResult = "You Win"}
+    if (gameChoice == "paper") {gameResult = "DRAW"} else if (gameChoice == "scissors") {gameResult = "YOU LOSE"} else if (gameChoice == "rock") {gameResult = "YOU WIN"}
     endGame()
   }
 
   function scissors() {
     playerChoice = "scissors";
     gameChoice = gameArr[parseInt(Math.random()*3)];
-    if (gameChoice == "scissors") {gameResult = "Draw"} else if (gameChoice == "rock") {gameResult = "You Lose"} else if (gameChoice == "paper") {gameResult = "You Win"}
+    if (gameChoice == "scissors") {gameResult = "DRAW"} else if (gameChoice == "rock") {gameResult = "YOU LOSE"} else if (gameChoice == "paper") {gameResult = "YOU WIN"}
     endGame()
   }
 
