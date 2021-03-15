@@ -13,7 +13,6 @@ let gameArr = ["ROCK", "PAPER", "SCISSORS"];
 let gameResult;
 
 function endGame() {
-  console.log(`${gameResult}: You picked ${playerChoice} and your opponent picked ${gameChoice}`);
   output1.textContent = gameResult;
   output2.textContent = `You picked ${playerChoice} and your opponent picked ${gameChoice}`;
   if (gameResult == "DRAW") {
