@@ -1,2 +1,3 @@
 # JS-RockPaperScissors
-Javascript Rock Paper Scissors Game
+Rock Paper Scissors Game
+with: HTML / CSS / JAVASCRIPT / BOOTSTRAP
