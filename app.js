@@ -9,13 +9,13 @@ let draws = 0;
 let losses = 0;
 
 let playerChoice;
-let gameArr = ["rock", "paper", "scissors"];
+let gameArr = ["ROCK", "PAPER", "SCISSORS"];
 let gameResult;
 
 function endGame() {
-  console.log(`${gameResult}: You chose ${playerChoice} and the game chose ${gameChoice}`);
+  console.log(`${gameResult}: You picked ${playerChoice} and your opponent picked ${gameChoice}`);
   output1.textContent = gameResult;
-  output2.textContent = `You chose ${playerChoice} and the game chose ${gameChoice}`;
+  output2.textContent = `You picked ${playerChoice} and your opponent picked ${gameChoice}`;
   if (gameResult == "DRAW") {
     draws += 1;
   } else if (gameResult == "YOU LOSE") {
@@ -27,39 +27,39 @@ function endGame() {
 }
 
 function rock() {
-  playerChoice = "rock";
+  playerChoice = "ROCK";
   gameChoice = gameArr[parseInt(Math.random() * 3)];
-  if (gameChoice == "rock") {
+  if (gameChoice == "ROCK") {
     gameResult = "DRAW";
-  } else if (gameChoice == "paper") {
+  } else if (gameChoice == "PAPER") {
     gameResult = "YOU LOSE";
-  } else if (gameChoice == "scissors") {
+  } else if (gameChoice == "SCISSORS") {
     gameResult = "YOU WIN";
   }
   endGame();
 }
 
 function paper() {
-  playerChoice = "paper";
+  playerChoice = "PAPER";
   gameChoice = gameArr[parseInt(Math.random() * 3)];
-  if (gameChoice == "paper") {
+  if (gameChoice == "PAPER") {
     gameResult = "DRAW";
-  } else if (gameChoice == "scissors") {
+  } else if (gameChoice == "SCISSORS") {
     gameResult = "YOU LOSE";
-  } else if (gameChoice == "rock") {
+  } else if (gameChoice == "ROCK") {
     gameResult = "YOU WIN";
   }
   endGame();
 }
 
 function scissors() {
-  playerChoice = "scissors";
+  playerChoice = "SCISSORS";
   gameChoice = gameArr[parseInt(Math.random() * 3)];
-  if (gameChoice == "scissors") {
+  if (gameChoice == "SCISSORS") {
     gameResult = "DRAW";
-  } else if (gameChoice == "rock") {
+  } else if (gameChoice == "ROCK") {
     gameResult = "YOU LOSE";
-  } else if (gameChoice == "paper") {
+  } else if (gameChoice == "PAPER") {
     gameResult = "YOU WIN";
   }
   endGame();

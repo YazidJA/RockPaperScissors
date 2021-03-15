@@ -5,24 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Rock, Paper, Scissors</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"/>
     <link rel="stylesheet" href="style.css" />
     <script src="app.js" defer></script>
   </head>
   <body>
     <section>
-      <h1>Let's play Rock, Paper, Scissors !</h1>
-      <button id="rockBtn">Rock</button>
-      <button id="paperBtn">Paper</button>
-      <button id="scissorsBtn">Scissors</button>
+      <h1>LET'S PLAY !</h1></section>
+      <section>
+      <button id="rockBtn" class="btn btn-danger btn-block">Rock</button>
+      <button id="paperBtn" class="btn btn-info btn-block">Paper</button>
+      <button id="scissorsBtn" class="btn btn-primary btn-block">Scissors</button>
     </section>
     <section>
-      <h1>Game Result</h1>
-      <p id="output1"></p>
-      <p id="output2"></p>
+      <h1 id="output1">RESULT</h2>
+      <p id="output2">GAME SUMMARY</p>
     </section>
     <section>
-      <h1>Counter</h1>
-      <p id="counter"></p>
+      <h1></h1>
+      <p id="counter">Wins: 0 / Losses: 0 / Draws: 0</p>
     </section>
   </body>
 </html>
