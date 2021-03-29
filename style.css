@@ -1,9 +1,32 @@
-section {
+body {
+  background-color: #1b2021;
+  color: #d8ac9c;
   text-align: center;
-  margin: 2rem auto;
-  width: 90%;
-  border: 1px solid #023d6d;
+}
+
+#title {
+  font-family: "Press Start 2P", cursive;
+  font-size: 5vmin;
+}
+
+section {
+  font-family: "Bebas Neue", cursive;
+  margin: 3vmin auto;
+  padding: 2vmin;
+  width: 80vw;
+  border: 1px solid #5f939a;
   border-radius: 10px;
-  padding: 1rem;
-  color: #023d6d;
+  font-size: 4vmin;
+}
+
+.btn,
+.btn:hover {
+  background-color: #d8ac9c;
+  color: #1b2021;
+  border-color: #5f939a;
+  font-size: 4vmin;
+}
+
+.btn:hover {
+  background-color: #eac8af;
 }

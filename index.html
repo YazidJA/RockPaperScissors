@@ -5,32 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Rock, Paper, Scissors</title>
+    <!-- Bootstrap -->
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
       integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-      crossorigin="anonymous"/>
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
-integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" 
-crossorigin="anonymous" />
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Press+Start+2P"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
+    <!-- Javascript -->
     <script src="app.js" defer></script>
   </head>
-  <body>
+
+  <body class="container-fluid">
     <section>
-      <h1 class="text-primary">LET'S PLAY !</h1></section>
-      <section>
-      <button id="rockBtn" class="btn btn-danger btn-block"><i class="far fa-hand-rock"></i> Rock <i class="far fa-hand-rock"></i></button>
-      <button id="paperBtn" class="btn btn-info btn-block"><i class="far fa-hand-paper"></i> Paper <i class="far fa-hand-paper"></i></button>
-      <button id="scissorsBtn" class="btn btn-primary btn-block"><i class="far fa-hand-scissors"></i> Scissors <i class="far fa-hand-scissors"></i></button>
+      <h1 id="title">LET'S PLAY !</h1>
     </section>
     <section>
-      <h1 id="output1">RESULT</h2>
-      <p id="output2">GAME SUMMARY</p>
+      <p id="output">GAME SUMMARY</p>
     </section>
     <section>
-      <h1></h1>
       <p id="counter">Wins: 0 / Losses: 0 / Draws: 0</p>
+    </section>
+    <section>
+      <button id="rockBtn" class="btn btn-block">
+        <i class="far fa-hand-rock"></i> Rock <i class="far fa-hand-rock"></i>
+      </button>
+      <button id="paperBtn" class="btn btn-block">
+        <i class="far fa-hand-paper"></i> Paper
+        <i class="far fa-hand-paper"></i>
+      </button>
+      <button id="scissorsBtn" class="btn btn-block">
+        <i class="far fa-hand-scissors"></i> Scissors
+        <i class="far fa-hand-scissors"></i>
+      </button>
     </section>
   </body>
 </html>
