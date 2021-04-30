@@ -1,3 +1,2 @@
-# JS-RockPaperScissors
-Rock Paper Scissors Game
-with: HTML / CSS / JAVASCRIPT / BOOTSTRAP / FONTAWESOME
+# Rock Paper Scissors Game
+Made with HTML/CSS/Javascript + Bootstrap/Fontawesome
